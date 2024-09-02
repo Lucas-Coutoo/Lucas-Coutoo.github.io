@@ -1,53 +1,98 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #413c3c;
     margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #ffcc00;
     padding: 20px;
-    text-align: center;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em;
+    color: #069625;
 }
-
-p {
-    margin: 10px 0;
-}
-
-.lanche-lista {
+ul{
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a { 
+    color:rgb(35, 236, 28);
+    text-decoration: none;
 }
 
-.lanche-item {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    margin: 10px;
-    padding: 20px;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(65, 207, 30)
+}
+
+.center {
     text-align: center;
 }
 
-.lanche-item img {
-    max-width: 100%;
-    border-radius: 10px;
+h1 {
+    text-align: center;
+    color: rgb(14, 202, 70)
 }
 
-h2 {
-    margin-top: 10px;
+nav a:hover {
+    color:rgb(248, 0, 0)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #818080;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
     color: #333;
 }
 
-.lanche-item p {
-    color: #666;
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
